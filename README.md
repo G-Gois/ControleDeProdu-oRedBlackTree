@@ -1,4 +1,4 @@
-# ControleDeProdu-oRedBlackTree
+# ControleDeProducaoRedBlackTree
 Sistema de Controle de produção de feno utilizando arvore RedBlack e metodo de pesquisa inOrder escrito em C.
 
 Para rodar o sistema buildar utilizando o gcc o seguinte comando:

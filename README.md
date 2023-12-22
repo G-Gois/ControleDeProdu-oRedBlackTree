@@ -14,3 +14,8 @@ O sistema faz a verificação de todo input necessario, incluindo:
   Verificação se o tipo de cultivar é valido (Considerando apenas a inclusão de cultivares Tifton 85, Florakirk, Jiggs e Coastcross)
   Verificação se o tipo de feno é valido (Considerando tipos A, B ou C)
 O sistema utilizou as operações de busca InOrder para todas suas operações de busca, sejam com filtro ou não.
+
+
+Possiveis melhorias para o futuro:
+-Melhorar a legibilidade da Main, talvez criando funções para os menus necessarios.
+-Foi criado um arquivos Types.h para resolver um problema de declaração das structs serem intedependentes, mas é possivel resolver esse problema declarando corretamente as chamadas de producao.h e rubroNegra.h utilizando #ifndef
